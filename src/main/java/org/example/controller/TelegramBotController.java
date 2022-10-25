@@ -12,7 +12,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 @Component
 @Log4j2
 public class TelegramBotController extends TelegramLongPollingBot {
-
+// Токен из переменных сред
     final private String BOT_TOKEN = System.getenv("BOT_TOKEN");
     @Override
     public String getBotUsername() {
